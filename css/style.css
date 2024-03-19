@@ -1,3 +1,12 @@
+/* ------------- TO DO ------------- */
+
+/* 
+SISTEMARE HOVER NAVBAR
+
+
+*/
+
+
 /* ------------- GENERALE ------------- */
 
 * {
@@ -28,7 +37,7 @@ nav {
 .col-nav {
     display: flex;
     width: 50%;
-    gap: 1rem;
+    gap: 2rem;
     text-decoration: none;
     align-items: center;
 }
@@ -42,6 +51,11 @@ nav {
 .link-nav {
     text-decoration: none;
     color: black;
+    border-bottom: solid 1px white;
+}
+.link-nav:hover {
+    
+    border-bottom: solid 1px black;
 }
 
 /* --- BOTTONE INIZIA --- */
@@ -49,7 +63,7 @@ nav {
     background-color: #0161FF;
     color: white;
     text-decoration: none;
-    padding: 4px 10px;
+    padding: 7px 14px;
 }
 
 /* ------------- CONTENUTO ------------- */
@@ -62,24 +76,50 @@ nav {
 .jumbo {
     width: 1200px;
     margin: 0 auto;
-    padding-top: 130px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    position: relative;
+    bottom: -80px;
 }
 
 /* --- TITOLO JUMBO --- */
 .titolo {
     font-size: 80px;
-    margin-bottom: 30px;
     font-family: "Inter", sans-serif;
     font-weight: 800;
+    padding-bottom: 45px;
+}
+
+/* --- TESTO + IMMAGINE JUMBO --- */
+.c-ribasso {
+    display: flex;
 }
 
 .testo-jumbo {
-    width: 35%;
-    font-family: "Inter", sans-serif;
-    line-height: 24px;
+    width: 30%;
 }
 
 .img-jumbo {
-    width: 65%;
+    width: 70%;
+}
+
+.img-jumbo img {
+    width: 100%;
+}
+
+.paragrafo-jumbo {
+    font-family: "Inter", sans-serif;
+    line-height: 25px;
+}
+
+.paragrafo-jumbo:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.paragrafo-jumbo:nth-child(3) {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.freccia-jumbo {
+    font-size: 40px;
 }
