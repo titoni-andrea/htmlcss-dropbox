@@ -17,6 +17,7 @@ SISTEMARE HOVER NAVBAR
 
 body {
     font-family: sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -32,6 +33,7 @@ nav {
     height: 70px;
     background-color: white;
     position: fixed;
+    z-index: 1;
 }
 
 .col-nav {
@@ -73,7 +75,7 @@ nav {
     background-color: #B1CCE3;
 }
 
-.jumbo {
+#jumbo {
     width: 1200px;
     margin: 0 auto;
     padding-top: 70px;
@@ -107,7 +109,6 @@ nav {
 }
 
 .paragrafo-jumbo {
-    font-family: "Inter", sans-serif;
     line-height: 25px;
 }
 
@@ -122,4 +123,25 @@ nav {
 
 .freccia-jumbo {
     font-size: 40px;
+    color: black;
+}
+
+
+/* --- PIANI E PREZZI --- */
+.box-bianco {
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.titolo-sezione {
+    font-size: 40px;
+}
+
+.select {
+    padding: 50px 0 25px 0px
+}
+
+.select label {
+    padding-right: 40px;
 }
