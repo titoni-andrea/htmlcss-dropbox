@@ -68,7 +68,7 @@ nav {
     padding: 7px 14px;
 }
 
-/* ------------- CONTENUTO ------------- */
+/* ------------- MAIN ------------- */
 
 /* --- JUMBO --- */
 .cont-jumbo {
@@ -126,7 +126,6 @@ nav {
     color: black;
 }
 
-
 /* --- PIANI E PREZZI --- */
 .box-bianco {
     width: 1060px;
@@ -137,11 +136,106 @@ nav {
 .titolo-sezione {
     font-size: 40px;
 }
-
+ 
+/* --- SELECT --- */
 .select {
     padding: 50px 0 25px 0px
 }
 
 .select label {
     padding-right: 40px;
+}
+
+/* --- COLONNE --- */
+
+.cont-colonne {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-piani-prezzi {
+    width: 30%;
+    border: solid 1px rgb(147, 147, 147);
+}
+
+/* --- HEADER COLONNA --- */
+.header-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px rgb(147, 147, 147);
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+/* --- CONTENUTO COLONNA --- */
+
+.cont-col {
+    padding: 30px 20px;
+}
+
+/* --- PREZZO --- */
+
+.cont-prezzo {
+    padding-top: 13px;
+}
+
+.prezzo {
+    font-weight: 600;
+}
+
+.specifica-prezzo {
+    padding-top: 6px;
+    color: rgb(147, 147, 147);
+}
+
+/* --- FUNZIONALITA --- */
+
+.funzionalita ul {
+    list-style-type: none;
+    padding: 30px 0px;
+}
+
+.funzionalita ul li{
+    padding-bottom: 10px;
+}
+
+/* --- PROVA GRATUITA --- */
+
+.cont-col .inizia {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.acquista-ora {
+    color: #0161FF;
+}
+
+hr {
+    width: 60px;
+    margin: 40px 0px;
+}
+
+/* --- PUNTI SALIENTI --- */
+
+.sottotitolo {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.punti-salienti ul {
+    list-style-type: none;
+}
+
+.punti-salienti ul li{
+    padding-bottom: 10px;
+}
+
+.punti-salienti ul li i {
+    color: #0161FF;
 }
