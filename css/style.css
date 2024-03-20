@@ -480,3 +480,41 @@ hr {
 
 }
 
+/* --- DOMANDE FREQUENTI --- */
+
+.domande-frequenti {
+    padding-bottom: 110px;
+}
+
+.domande-frequenti .titolo-sezione {
+    margin-bottom: 50px;
+}
+
+.cont-domanda hr {
+    width: 100%;
+    margin: 0px;
+}
+
+.domanda {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 20px 35px 0px;
+    align-items: center;
+}
+
+.domanda .sottotitolo {
+    padding: 0px;
+}
+
+.testo-risposta {
+     padding-bottom: 35px;
+     display: none;
+}
+
+.cont-domanda:hover .testo-risposta {
+    display: block;
+}
+
+.cont-domanda:hover .domanda i {
+    transform: rotate(180deg);
+}
