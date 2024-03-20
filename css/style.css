@@ -362,30 +362,38 @@ hr {
 }
 
 .col1-recensioni {
-    width: 25%;
+    width: 33.3333%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .col2-recensioni {
-    width: 50%;
+    width: 33.33333%;
+    padding: 40px;
 }
 
 .col3-recensioni {
-    width: 25%;
+    width: 33.33333%;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* --- QUADRATI PER LE IMMAGINI --- */
 .square {
     width: 50%;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 12.5vw;
+    height: 16.6666vw;
 }
 
+.img-recensioni {
+    width: 100%;
+    filter: invert(1);
+}
+
+/* --- COLORE SFONDO QUADRATI --- */
 .col1-recensioni .square:nth-child(1) {
     background-color: #A2D39B;
 }
@@ -418,7 +426,13 @@ hr {
     background-color: #FFD830;
 }
 
-.img-recensioni {
-    width: 100%;
-    filter: invert(1);
+/* --- COLONNA CENTRALE RECENSIONI --- */
+
+.img-testo-rec {
+    width: 50%;
 }
+
+.img-testo-rec img {
+    width: 100%;
+}
+
