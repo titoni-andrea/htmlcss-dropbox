@@ -245,7 +245,7 @@ hr {
     color: #0161FF;
 }
 
-/* --- COLONNA ENTERPRISE --- */
+/* --- SEZIONE ENTERPRISE --- */
 
 .col-enterprise {
     width: 100%;
@@ -257,6 +257,7 @@ hr {
     display: flex;
 }
 
+/* --- COLONNA 1 ENTERPRISE --- */
 .col1-enterprise {
     width: 70%;
     padding: 25px 0px 20px 20px;
@@ -264,12 +265,14 @@ hr {
 
 .col1-enterprise .paragrafo-jumbo {
     margin-bottom: 0px;
+    margin-top: 16px;
 }
 
 .col-enterprise .sottotitolo {
     padding-top: 10px;
 }
 
+/* --- COLONNA 2 ENTERPRISE --- */
 .col2-enterprise {
     width: 30%;
     padding: 30px 20px 20px 0px;
@@ -277,4 +280,66 @@ hr {
 
 .col2-enterprise .inizia {
     padding: 10px 32px;
+}
+
+/* --- PARTNER --- */
+
+.partner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.img-partner {
+    width: 60%;
+}
+
+.img-partner img {
+    width: 100%;
+}
+
+.testo-partner {
+    width: 40%;
+    padding: 55px 40px;
+}
+
+.testo-partner .paragrafo-jumbo {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.but-partner {
+    padding: 15px 20px;
+    border: solid 2px black;
+    text-decoration: none;
+    color: black;
+}
+
+/* --- OPERAZIONI --- */
+
+.operazioni {
+    margin-top: 120px;
+}
+
+.cont-flex {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 31%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .titoletto {
+    margin-top: 10px;
+}
+
+.card .paragrafo-jumbo {
+    margin-top: 30px;
 }
