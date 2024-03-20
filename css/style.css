@@ -316,7 +316,6 @@ hr {
 }
 
 /* --- OPERAZIONI --- */
-
 .operazioni {
     margin-top: 120px;
 }
@@ -328,6 +327,7 @@ hr {
     flex-wrap: wrap;
 }
 
+/* --- CARD --- */
 .card {
     width: 31%;
 }
@@ -342,4 +342,83 @@ hr {
 
 .card .paragrafo-jumbo {
     margin-top: 30px;
+}
+
+/* --- TITOLO UTILIZZO DROPBOX BUSINESS --- */
+.cont-titolo {
+    width: 60%;
+    margin-top: 60px;
+}
+
+.cont-titolo .titolo-sezione {
+    margin-bottom: 40px;
+}
+
+/* --- RECENSIONI --- */
+.recensioni {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+
+.col1-recensioni {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col2-recensioni {
+    width: 50%;
+}
+
+.col3-recensioni {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5vw;
+}
+
+.col1-recensioni .square:nth-child(1) {
+    background-color: #A2D39B;
+}
+
+.col1-recensioni .square:nth-child(2) {
+    background-color: #60092B;
+}
+
+.col1-recensioni .square:nth-child(3) {
+    background-color: #0093CE;
+}
+
+.col1-recensioni .square:nth-child(4) {
+    background-color: #FF1B1C;
+}
+
+.col3-recensioni .square:nth-child(1) {
+    background-color: #D50020;
+}
+
+.col3-recensioni .square:nth-child(2) {
+    background-color: #B4D0E7;
+}
+
+.col3-recensioni .square:nth-child(3) {
+    background-color: #0D2481;
+}
+
+.col3-recensioni .square:nth-child(4) {
+    background-color: #FFD830;
+}
+
+.img-recensioni {
+    width: 100%;
+    filter: invert(1);
 }
