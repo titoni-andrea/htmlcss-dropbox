@@ -357,7 +357,7 @@ hr {
 /* --- RECENSIONI --- */
 .recensioni {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 130px;
     display: flex;
 }
 
@@ -483,13 +483,14 @@ hr {
 /* --- DOMANDE FREQUENTI --- */
 
 .domande-frequenti {
-    padding-bottom: 110px;
+    padding-bottom: 130px;
 }
 
 .domande-frequenti .titolo-sezione {
     margin-bottom: 50px;
 }
 
+/* --- DOMANDA --- */
 .cont-domanda hr {
     width: 100%;
     margin: 0px;
@@ -506,6 +507,7 @@ hr {
     padding: 0px;
 }
 
+/* --- RISPOSTA --- */
 .testo-risposta {
      padding-bottom: 35px;
      display: none;
@@ -517,4 +519,59 @@ hr {
 
 .cont-domanda:hover .domanda i {
     transform: rotate(180deg);
+}
+
+/* ------------- FOOTER ------------- */
+
+#footer {
+    background-color: black;
+}
+
+.box-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.colonne-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: white;
+    width: 15%;
+}
+
+.info .sottotitolo {
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+.elenco-info {
+    list-style-type: none;
+}
+
+.elenco-info li {
+    padding-bottom: 15px;
+}
+
+.elenco-info li a {
+    text-decoration: none;
+    color:  white;
+}
+
+.box-footer hr {
+    width: 10%;
+}
+
+.select-lingua {
+    color: white;
+}
+
+.lingua {
+    background-color: black;
+    color: white;
+    border: solid 1px black;
 }
