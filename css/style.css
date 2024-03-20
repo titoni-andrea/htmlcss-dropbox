@@ -448,3 +448,35 @@ hr {
     width: 100px;
 }
 
+/* --- INIZIA PIANO BUSINESS --- */
+
+.inizia-business {
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.inizia-business .box-bianco {
+    margin-top: 0px;
+    padding: 90px 0px;
+    display: flex;
+}
+
+.titolo-business {
+    width: 50%;
+    color: #610D2C;
+}
+
+.button-business {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button-business .inizia {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+
+}
+
