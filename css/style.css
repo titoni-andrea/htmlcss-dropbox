@@ -192,18 +192,17 @@ nav {
 
 .specifica-prezzo {
     padding-top: 6px;
+    padding-bottom: 50px;
     color: rgb(147, 147, 147);
 }
 
 /* --- FUNZIONALITA --- */
 
-.funzionalita ul {
-    list-style-type: none;
-    padding: 30px 0px;
-}
 
-.funzionalita ul li {
-    padding-bottom: 10px;
+.cont-funzionalita {
+    display: flex;
+    padding-bottom: 15px;
+    gap: 15px;
 }
 
 /* --- PROVA GRATUITA --- */
@@ -233,15 +232,7 @@ hr {
     padding-bottom: 20px;
 }
 
-.punti-salienti ul {
-    list-style-type: none;
-}
-
-.punti-salienti ul li {
-    padding-bottom: 10px;
-}
-
-.punti-salienti ul li i {
+.punti-salienti .cont-funzionalita i {
     color: #0161FF;
 }
 
@@ -534,6 +525,7 @@ hr {
     padding-bottom: 30px;
 }
 
+/* --- COLONNE INFO --- */
 .colonne-footer {
     display: flex;
     justify-content: space-between;
@@ -566,6 +558,7 @@ hr {
     width: 10%;
 }
 
+/* --- SELECT --- */
 .select-lingua {
     color: white;
 }
